@@ -16,9 +16,14 @@ Range Mono (https://pilgrimfonts.com/range-mono/)
 
     set linespace=8
     set guifont=Range\ Mono\ Light:h13
+    
+
+#### Plugins
+
+##### vim-fugitive (https://github.com/tpope/vim-fugitive)
 
 
-#### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
+##### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
 
 
 	let g:gitgutter_sign_modified = '•'
@@ -26,7 +31,7 @@ Range Mono (https://pilgrimfonts.com/range-mono/)
 	highlight GitGutterAdd guifg = '#A3E28B'
 
 
-#### lightline.vim (https://github.com/itchyny/lightline.vim)
+##### lightline.vim (https://github.com/itchyny/lightline.vim)
 
 Colorscheme: nord (https://github.com/arcticicestudio/nord-vim)
 	
