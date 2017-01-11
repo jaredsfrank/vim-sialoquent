@@ -10,6 +10,9 @@ If you are using Macvim or Gvim you can make it even better by adding transparen
 
 ### Setup in sceenshot
 
+#### Font
+
+Range Mono (https://pilgrimfonts.com/range-mono/)
 
 #### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
 
