@@ -1,4 +1,4 @@
-" judas.vim - Vim color scheme
+" sialoquent.vim - Vim color scheme
 " ----------------------------------------------------------
 " Author:   David Karlsson
 " Cred: Based on vim-hemisu ( https://github.com/noahfrederick/vim-hemisu )
@@ -9,9 +9,10 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
+set background=dark
 
 " Declare theme name
-let g:colors_name = "judas"
+let g:colors_name = "sialoquent"
 
 " Define reusable colors
 let s:black            = { "gui": "#2B303B", "cterm": "16"  }
@@ -44,43 +45,22 @@ let s:middleYellow     = { "gui": "#EBCB8B", "cterm": "149" }
 let s:lightGreen       = { "gui": "#A3BE8C", "cterm": "157" }
 
 " Assign to semantic categories based on background color
-if &background == "dark"
-  " Dark theme
-  let s:bg         = s:black
-  let s:norm       = s:almostWhite
-  let s:comment    = s:middleDarkGrey
-  let s:dimmed     = s:middleLightGrey
-  let s:subtle     = s:darkGrey
-  let s:faint      = s:almostBlack
-  let s:accent1    = s:middleLightBlue
-  let s:accent2    = s:middleYellow
-  let s:accent3    = s:lightGreen
-  let s:accent4    = s:lightTan
-  let s:normRed    = s:middleLightPink
-  let s:normGreen  = s:middleYellow
-  let s:normBlue   = s:middleLightBlue
-  let s:faintRed   = s:darkPink
-  let s:faintGreen = s:darkGreen
-  let s:faintBlue  = s:darkBlue
-else
-  " Light theme
-  let s:bg         = s:white
-  let s:norm       = s:almostBlack
-  let s:comment    = s:middleLightGrey
-  let s:dimmed     = s:middleDarkGrey
-  let s:subtle     = s:lightGrey
-  let s:faint      = s:almostWhite
-  let s:accent1    = s:middleDarkBlue
-  let s:accent2    = s:middleDarkGreen
-  let s:accent3    = s:middleDarkPink
-  let s:accent4    = s:darkTan
-  let s:normRed    = s:middleDarkPink
-  let s:normGreen  = s:middleDarkGreen
-  let s:normBlue   = s:middleDarkBlue
-  let s:faintRed   = s:lightPink
-  let s:faintGreen = s:lightGreen
-  let s:faintBlue  = s:lightBlue
-endif
+let s:bg         = s:black
+let s:norm       = s:almostWhite
+let s:comment    = s:middleDarkGrey
+let s:dimmed     = s:middleLightGrey
+let s:subtle     = s:darkGrey
+let s:faint      = s:almostBlack
+let s:accent1    = s:middleLightBlue
+let s:accent2    = s:middleYellow
+let s:accent3    = s:lightGreen
+let s:accent4    = s:lightTan
+let s:normRed    = s:middleLightPink
+let s:normGreen  = s:middleYellow
+let s:normBlue   = s:middleLightBlue
+let s:faintRed   = s:darkPink
+let s:faintGreen = s:darkGreen
+let s:faintBlue  = s:darkBlue
 
 "
 function! s:h(group, style)
