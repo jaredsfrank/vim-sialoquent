@@ -20,7 +20,6 @@ Range Mono (https://pilgrimfonts.com/range-mono/)
 
 #### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
 
-Add to vimrc:
 
 	let g:gitgutter_sign_modified = '•'
 	let g:gitgutter_sign_added = '❖'
@@ -30,8 +29,6 @@ Add to vimrc:
 #### lightline.vim (https://github.com/itchyny/lightline.vim)
 
 Colorscheme: nord (https://github.com/arcticicestudio/nord-vim)
-
-Add to vimrc
 	
 	set laststatus=2
 	
