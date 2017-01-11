@@ -14,6 +14,10 @@ If you are using Macvim or Gvim you can make it even better by adding transparen
 
 Range Mono (https://pilgrimfonts.com/range-mono/)
 
+    set linespace=8
+    set guifont=Range\ Mono\ Light:h13
+
+
 #### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
 
 Add to vimrc:
