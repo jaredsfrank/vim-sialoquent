@@ -11,7 +11,7 @@ If you are using Macvim or Gvim you can make it even better by adding transparen
 ### Setup in sceenshot
 
 
-##### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
+#### vim-gitgutter (https://github.com/airblade/vim-gitgutter)
 
 Add to vimrc:
 
@@ -20,7 +20,7 @@ Add to vimrc:
 	highlight GitGutterAdd guifg = '#A3E28B'
 
 
-##### lightline.vim (https://github.com/itchyny/lightline.vim)
+#### lightline.vim (https://github.com/itchyny/lightline.vim)
 
 Colorscheme: nord (https://github.com/arcticicestudio/nord-vim)
 
